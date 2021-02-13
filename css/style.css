@@ -367,7 +367,7 @@ input[type=text], input[type=email], input[type=tel], textarea {
   }
   .header__burger.active span:first-child {
     transform: rotate(-45deg);
-    top: 11px;
+    top: 12px;
   }
   .header__burger.active span:last-child {
     transform: rotate(45deg);
