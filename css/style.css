@@ -535,6 +535,10 @@ input[type=text], input[type=email], input[type=tel], textarea {
 }
 
 /* Слайдер */
+.slick-slider {
+  position: relative;
+}
+
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
@@ -945,7 +949,7 @@ input[type=text], input[type=email], input[type=tel], textarea {
   align-self: flex-start;
   padding: 0px 22px;
   font-size: 15px;
-  min-height: 51px;
+  height: 51px;
   line-height: 51px;
 }
 @media (max-width: 767.98px) {
