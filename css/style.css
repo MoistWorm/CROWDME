@@ -86,6 +86,9 @@ body {
 body.lock {
   overflow: hidden;
 }
+body._lock {
+  overflow: hidden;
+}
 
 .wrapper {
   width: 100%;
@@ -325,6 +328,11 @@ input[type=text], input[type=email], input[type=tel], textarea {
 @media (max-width: 860px) {
   .header__btn {
     margin: 0px 100px 0px 10px;
+  }
+}
+@media (max-width: 500px) {
+  .header__btn {
+    margin: 0px 70px 0px 10px;
   }
 }
 @media (max-width: 450px) {
